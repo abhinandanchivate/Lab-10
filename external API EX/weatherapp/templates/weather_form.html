@@ -1,0 +1,6 @@
+<form method="post">
+  {% csrf_token %}
+  <label>Enter City Name:</label>
+  <input type="text" name="city" required />
+  <button type="submit">Get Weather</button>
+</form>
